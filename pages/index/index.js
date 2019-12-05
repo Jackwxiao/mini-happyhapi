@@ -9,12 +9,10 @@ Page({ // 注册当前页面
   },
 
 	handleParent(){
-		console.log('父元素');
 		// 跳转页面
 		wx.switchTab({
 			url: '/pages/list/list',
 			success(){
-				console.log('跳转成功');
 			}
 		})
 	},
@@ -28,7 +26,6 @@ Page({ // 注册当前页面
 		// 获取登录用户信息
 		wx.getUserInfo({
 			success: (data) => {
-				console.log(data);
 				this.setData({userInfo: data.userInfo});
 			}
 		})
@@ -38,21 +35,18 @@ Page({ // 注册当前页面
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-		console.log('页面初始化渲染完毕');
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-		console.log('页面显示完毕');
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-		console.log('页面隐藏毕');
   },
 
   /**

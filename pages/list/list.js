@@ -1,6 +1,5 @@
 // pages/list/list.js
 let datas = require('../../datas/list-data');
-console.log(typeof datas, datas);
 Page({
 
   /**
@@ -26,7 +25,6 @@ Page({
   },
 
   toDetail(event) {
-    console.log(event);
     let id = event.currentTarget.dataset.id;
     wx.navigateTo({
       url: '/pages/detail/detail?id=' + id

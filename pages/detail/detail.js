@@ -45,12 +45,10 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options);
     // 获取传递过来的数据，更新当前的data
     this.setData({detailObj:datas.list_data[options.id], index: options.id});
     // 获取本地存储数据
     let storageObj = wx.getStorageSync('isCollected');
-    console.log(storageObj);
     // 判断是否存储过数据
     if(!storageObj){
       storageObj = {};
@@ -74,7 +72,6 @@ Page({
 
     // 监听背景音乐的播放
     wx.onBackgroundAudioPlay(() => {
-      // console.log('音乐播放');
       this.setData({
         isPlay: true
       })
@@ -84,7 +81,6 @@ Page({
 
     // 监听音乐暂停。
     wx.onBackgroundAudioPause(() => {
-      // console.log('音乐暂停');
       this.setData({
         isPlay: false
       })
