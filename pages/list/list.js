@@ -1,7 +1,6 @@
 // pages/list/list.js
 let datas = require('../../datas/list-data');
 Page({
-
   /**
    * 页面的初始数据
    */
