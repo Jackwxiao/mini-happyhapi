@@ -20,8 +20,6 @@ Page({ // 注册当前页面
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-		console.log('页面加载完毕');
-		console.log(this)
 		// 开启定时器，发送ajax请求
 		// 获取登录用户信息
 		wx.getUserInfo({

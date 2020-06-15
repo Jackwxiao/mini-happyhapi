@@ -2,6 +2,6 @@
 	<image src='{{userInfo.avatarUrl}}'></image>
 	<text class='username'><text>Hello</text> {{userInfo.nickName}}</text>
 	<view bindtap='handleParent' class='goStudy'>
-		<text>开启小程序之旅</text>
+		<text>开启HapStudy之旅</text>
 	</view>
 </view>

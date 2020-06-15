@@ -24,7 +24,7 @@ page {
 }
 
 .goStudy {
-	width: 200rpx;
+	width: 220rpx;
 	height: 80rpx;
 	border: 1px solid #405f80;
 	border-radius: 5px;

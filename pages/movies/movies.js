@@ -1,8 +1,7 @@
 // pages/movies/movies.js
-const MOVIE_URL = 'http://t.yushu.im/v2/movie/top250';
+let MOVIE_URL = 'https://douban.uieee.com/v2/movie/top250';
 let appDatas = getApp();
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -16,7 +15,11 @@ Page({
   onLoad: function (options) {
     wx.request({
       url: MOVIE_URL,
+      header: {
+        "content-type": "json"
+      },
       success: (response) => {
+        console.log(response)
         this.setData({
           movies: response.data.subjects
         })
@@ -24,10 +27,5 @@ Page({
         appDatas.data.movies = response.data.subjects;
       }
     });
-
-
-
   },
-
-
 })

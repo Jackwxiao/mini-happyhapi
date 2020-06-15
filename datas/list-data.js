@@ -1,5 +1,4 @@
 let list_data = [
-  
   {
     date: '2009-4',
     title: 'JavaScript语言精粹',
@@ -15,9 +14,9 @@ let list_data = [
     attention_count: 99,
     detail: '钢铁战队',
     music: {
-      dataUrl: 'http://36.158.210.25/amobile.music.tc.qq.com/C40000363yuy33r0JO.m4a?guid=7838911850&vkey=EFE9843FDD8004A7E48BE9E49A6986E8838FAF2EA6E1DB68200F2AE42615369DD098FC81B4E7775B9FDED623797C6A3449DBE9E6A2300D57&uin=5019&fromtag=66', // 音乐链接
-      title: '欧若拉',   // 音乐标题
-      coverImgUrl: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000001ACTlE01fU6a.jpg?max_age=2592000',
+      dataUrl: 'http://music.163.com/song/media/outer/url?id=1436709403.mp3', // 音乐链接
+      title: '夏天的风',   // 音乐标题
+      coverImgUrl: 'http://p2.music.126.net/rFUKVdOjqxgwAT6Zi6qv7A==/109951164906689206.jpg',
     },
     postId: 0
   },
@@ -37,9 +36,9 @@ let list_data = [
     attention_count: 66,
     detail: 'Jeremy Keith / Jeffrey Sambells',
     music: {
-      dataUrl: 'http://183.214.44.147/amobile.music.tc.qq.com/C400002CD1h63aXAkm.m4a?guid=7838911850&vkey=D7FB9A8485D2171600B2A8D67AE9F010BE80E045BC5DD540448467D9BB356764C6B691EAE88286510441D85AE61CE0CCFBF47886D2872E90&uin=5019&fromtag=66', // 音乐链接
-      title: '野狼Disco',   // 音乐标题
-      coverImgUrl: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003Fghwn0gHHgA.jpg?max_age=2592000',
+      dataUrl: 'http://music.163.com/song/media/outer/url?id=1436709403.mp3', // 音乐链接
+      title: '夏天的风',   // 音乐标题
+      coverImgUrl: 'http://p2.music.126.net/rFUKVdOjqxgwAT6Zi6qv7A==/109951164906689206.jpg',
     },
     postId: 1
   },
@@ -59,9 +58,9 @@ let list_data = [
     attention_count: 66,
     detail: '弗拉纳根',
     music: {
-      dataUrl: 'http://183.214.44.157/amobile.music.tc.qq.com/C400002SPixq3KpKEu.m4a?guid=7838911850&vkey=B973D1DA768EED82E675FA795CD635508B14851224D91C848314C29CE5D560CE993F9E7995CF4EBABE7F378F47A587CDA4EB511D91B06EE5&uin=5019&fromtag=66', // 音乐链接
-      title: '爱拼才会赢',   // 音乐标题
-      coverImgUrl: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000001usxdB1KyRQ7.jpg?max_age=2592000',
+      dataUrl: 'http://music.163.com/song/media/outer/url?id=1436709403.mp3', // 音乐链接
+      title: '夏天的风',   // 音乐标题
+      coverImgUrl: 'http://p2.music.126.net/rFUKVdOjqxgwAT6Zi6qv7A==/109951164906689206.jpg',
     },
     postId: 2
   },
@@ -78,9 +77,9 @@ let list_data = [
     attention_count: 88,
     avatar: '/images/avatar/1.png',
     music: {
-      dataUrl: 'http://isure.stream.qqmusic.qq.com/C400001kMEcr1vxQW0.m4a?guid=7838911850&vkey=C9D63377C7FFF553EB3BD19DC3DDF4C6BE19FA711BEC1D17E2AED132C15357853DAF806F9258A4A53359C45AF1CDC0644C0FBB6B8A0D54A8&uin=5019&fromtag=66', // 音乐链接
-      title: '于文文 - 体面',   // 音乐标题
-      coverImgUrl: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000001qYTzY2oyDyZ.jpg?max_age=2592000',
+      dataUrl: 'http://music.163.com/song/media/outer/url?id=1436709403.mp3', // 音乐链接
+      title: '夏天的风',   // 音乐标题
+      coverImgUrl: 'http://p2.music.126.net/rFUKVdOjqxgwAT6Zi6qv7A==/109951164906689206.jpg',
     },
     postId: 3
   },
@@ -97,9 +96,9 @@ let list_data = [
     author: 'Kyle Simpson',
     avatar: '/images/avatar/2.png',
     music: {
-      dataUrl: 'http://36.158.210.19/amobile.music.tc.qq.com/C400000IOwtt1i2DFc.m4a?guid=7838911850&vkey=B5BA22D8B389DCB20D1B847C6DA94024A704256261957964A22915482FB601A84D9414D58BD45B7CB2A2E1FA21D32A49BF356B885D443DE4&uin=5019&fromtag=66', // 音乐链接
-      title: '遇见 - 孙燕姿',   // 音乐标题
-      coverImgUrl: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002ehzTm0TxXC2.jpg?max_age=2592000',
+      dataUrl: 'http://music.163.com/song/media/outer/url?id=1436709403.mp3', // 音乐链接
+      title: '夏天的风',   // 音乐标题
+      coverImgUrl: 'http://p2.music.126.net/rFUKVdOjqxgwAT6Zi6qv7A==/109951164906689206.jpg',
     },
     postId: 4
   },
@@ -118,9 +117,9 @@ let list_data = [
     attention_count: 66,
     detail: '阮一峰',
     music: {
-      dataUrl: 'http://183.214.44.150/amobile.music.tc.qq.com/C400004E67Xi2vFLP6.m4a?guid=7838911850&vkey=CD7AFC1DAF082812081EB5817D7E8466921D351187A480F1AA26F90C07CB166B6FD512383486A7A41CD2F0E3ED85693152B015458FBFF11F&uin=5019&fromtag=66', // 音乐链接
-      title: 'Shine - Linda Draper',   // 音乐标题
-      coverImgUrl: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000004G2SyU1mmBlv.jpg?max_age=2592000',
+      dataUrl: 'http://music.163.com/song/media/outer/url?id=1436709403.mp3', // 音乐链接
+      title: '夏天的风',   // 音乐标题
+      coverImgUrl: 'http://p2.music.126.net/rFUKVdOjqxgwAT6Zi6qv7A==/109951164906689206.jpg',
     },
     postId: 5
   },
@@ -139,9 +138,9 @@ let list_data = [
     attention_count: 66,
     detail: '曾探',
     music: {
-      dataUrl: 'http://isure.stream.qqmusic.qq.com/C400003MREo63PC7cN.m4a?guid=7838911850&vkey=E28B15FB04AA7BF6D1EFDA9B6384799022BF78ED7F9E3FDC7B85377FACA7CD6901937A7770A71A2F22B32C1C4D211EFCCE41A881840E90C3&uin=5019&fromtag=66', // 音乐链接
-      title: '新霸王别姬 - 庄心妍 / 富博洋',   // 音乐标题
-      coverImgUrl: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000004YbRF9443faW.jpg?max_age=2592000',
+      dataUrl: 'http://music.163.com/song/media/outer/url?id=1436709403.mp3', // 音乐链接
+      title: '夏天的风',   // 音乐标题
+      coverImgUrl: 'http://p2.music.126.net/rFUKVdOjqxgwAT6Zi6qv7A==/109951164906689206.jpg',
     },
     postId: 6
   },

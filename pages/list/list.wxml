@@ -15,7 +15,7 @@
 			<image data-detailId="3" src='/images/detail/carousel/04.jpg'></image>
 		</swiper-item>
 	</swiper>
-	<block wx:for="{{datas}}" wx:key="{{index}}">
+	<block wx:for="{{datas}}" wx:key="index">
 		<view catchtap="toDetail" data-id="{{index}}">
 			<template is="detailTemplate" data="{{...item}}"></template>
 		</view>
